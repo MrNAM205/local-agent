@@ -1,0 +1,48 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Electron build artifacts
+dist/
+build/
+out/
+release/
+*.asar
+
+# Electron binaries
+*.exe
+*.dll
+
+# Models (kept via LFS or external)
+models/
+*.onnx
+*.bin
+*.pt
+*.safetensors
+
+# Knowledge store (large data)
+knowledge/
+*.jsonl
+*.db
+*.sqlite
+*.zip
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
